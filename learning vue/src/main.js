@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// reference the api file
+import api from './api/index.js'
+// set api method to global
+Vue.prototype.$api = api
 
 Vue.config.productionTip = false
 
