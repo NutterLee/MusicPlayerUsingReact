@@ -13,7 +13,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
     '/api/v1/**': {
-    target: 'https://cnodejs.org', // 你接口的域名
+    target: 'https://cnodejs.org', // 接口的域名
     secure: false,
     changeOrigin: false,
       }
@@ -67,7 +67,7 @@ module.exports = {
     /**
      * SourceMap
     */
-    productionSourceMap: true,
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
     
