@@ -1,8 +1,8 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "todo list demo",
-  "author": "nodejh <jianghangscu@gmail.com>",
+  "description": "todo list",
+  "author": "han",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
