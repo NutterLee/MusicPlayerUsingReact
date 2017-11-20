@@ -52,4 +52,9 @@ null == undefined 会返回true，因为它们是类似的值；但null === unde
     对于引用类型的值可以为其添加属性和方法，也可以改变和删除其属性和方法。
     复制引用类型实际上两个变量指向的是同一个对象。
 13. javascript中，if for内声明的变量会被加入当前执行环境中；声明变量不加var 则会自动加入全局环境中。
+14. var colors = new Array(3); //创建包含三项的数组  
+var colors = new Array("3");//创建包含着'3'的数组  
+15. javascript中，修改数组的length属性可以移除项或者添加项  
+16. javascript中的数组可以直接模拟栈（push pop）和队列 （push shift unshift）  
+17. 数组的sort方法是先调用数组的toString方法再确定如何排序，因此"10"会排在"5"前面。
 
