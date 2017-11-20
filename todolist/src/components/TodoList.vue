@@ -21,10 +21,17 @@
     </ul>
     <div>
       <p v-show="todos.length === 0">
-        恭喜！所有的事情都已完成！
+        所有的事情都已完成！
       </p>
       <p v-show="todos.length !== 0">
-        共 <strong>{{ todos.length }}</strong> 个待办事项。{{ completedCounts }} 个已完成，{{ notCompletedCounts }} 个未完成。
+        <strong>{{ todos.length }}</strong> 个待办事项。{{ completedCounts }} 个已完成，{{ notCompletedCounts }} 个未完成。
+      </p>
+      <p id="instruction">
+        说明：<br>
+        这是一个简单的待做清单app<br>
+        在文本框中输入文字，点击添加即可加入事项<br>
+        单击事项可以使其被标记为已完成的状态，再次单击可以撤销操作<br>
+        列表下方有对事项数目和完成情况的统计<br>
       </p>
     </div>
   </div>
@@ -80,5 +87,11 @@ export default {
 }
 .completed {
   text-decoration: line-through;
+  text-decoration-color: red;
+}
+#instruction
+{
+  text-align: left;
+  color: #778899;
 }
 </style>

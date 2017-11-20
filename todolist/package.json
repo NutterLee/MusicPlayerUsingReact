@@ -1,8 +1,8 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "todo list",
-  "author": "han",
+  "description": "todo list demo",
+  "author": "nodejh <jianghangscu@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -64,7 +64,6 @@
     "inject-loader": "^3.0.0",
     "babel-plugin-istanbul": "^4.1.1",
     "phantomjs-prebuilt": "^2.1.14",
-    "chromedriver": "^2.27.2",
     "cross-spawn": "^5.0.1",
     "nightwatch": "^0.9.12",
     "selenium-server": "^3.0.1",
