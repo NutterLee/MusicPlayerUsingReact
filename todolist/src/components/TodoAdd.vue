@@ -37,6 +37,12 @@ export default {
 </script>
 <style scoped>
 .input {
-  min-width: 200px;
+  min-width: 250px;
 }
+.input:hover{
+     outline:none;
+     border:#87C6F9 1px solid;
+     box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+   }
+
 </style>

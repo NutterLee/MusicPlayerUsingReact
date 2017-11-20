@@ -12,4 +12,3 @@ npm install
 npm run dev
 ```
 
-![02.TodoLost-3.png](./../images/02.TodoLost-3.png)
